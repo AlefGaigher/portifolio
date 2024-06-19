@@ -8,7 +8,7 @@ export const experience = [
   },
   {
     year: '2018',
-    title: 'Estagiário de Suporte de Infraestrutura na Empresa Óticas Paris',
+    title: 'Estagiário de Suporte de Infraestrutura na empresa Óticas Paris',
     description: 'Vitória/ES',
   },
   {

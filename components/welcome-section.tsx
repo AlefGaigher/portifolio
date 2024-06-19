@@ -1,7 +1,7 @@
 import { Profile } from "./profile";
 
 export const WelcomeSection = () => (
-    <div className="grid grid-cols-2 items-center justify-center ">
+    <div className="grid grid-cols-2 items-center justify-center " id="quemsou">
        <div className="bouncing-balls">
           <div className="ball"></div>
           <div className="ball"></div>
