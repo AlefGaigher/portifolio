@@ -52,8 +52,8 @@ export default function RootLayout({
               <Link
                 isExternal
                 className="flex items-center gap-1 text-current"
-                href=""
-                title=""
+                href="https://vercel.com/alefgaighers-projects"
+                title="vercel projects alef"
               >
                 <span className="text-default-600">Todos Direitos Reservados</span>
                 <p className="text-primary"> - Alef Gaigher</p>
