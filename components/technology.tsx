@@ -9,7 +9,7 @@ interface CardContainerProps {
 export function Technology({ icon, title, description }: CardContainerProps) {
     return (
         <div className="flex items-center">
-            <div className="bg-blue-primary text-white flex items-center justify-center p-3 rounded text-5xl">
+            <div className="bg-blue-primary  flex items-center justify-center p-3 rounded text-5xl">
                 {icon}
             </div>
             <div className="ml-3 text-start">

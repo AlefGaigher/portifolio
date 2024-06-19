@@ -58,6 +58,7 @@ export const Navbar = () => {
             </span>
           </NavbarItem>
         ))}
+        <ThemeSwitch />
       </ul>
 
       {/* Navbar Menu Mobile */}
