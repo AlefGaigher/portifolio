@@ -5,9 +5,9 @@ import { BirthdayProgressBar } from "./birthday-progress-bar";
 export const Profile = () => (
   <div className="w-full flex flex-col items-center justify-center py-8 slide">
      
-    <div className="relative shadow-lg w-80 rounded-lg bg-white border-8 border-white overflow-hidden card-rotate">
+    <div className="relative shadow-lg w-80 rounded-lg  border-8 border-gray-300 overflow-hidden card-rotate">
       {/* Header */}
-      <div className="bg-indigo-400 w-full p-3 flex justify-between items-center text-white ">
+      <div className="bg-indigo-400 w-full p-3 flex justify-between items-center ">
         <span className="text-xl font-bold">Alef Gaigher</span>
         <div className="flex items-center">
           <span className="text-sm font-bold">Nível:</span>
@@ -18,17 +18,17 @@ export const Profile = () => (
       </div>
      
       {/* Image */}
-      <div className="bg-black p-4 flex justify-center">
-        <div className="relative w-40 h-40 rounded-full border-8 border-white overflow-hidden">
+      <div className=" p-4 flex justify-center">
+        <div className="relative w-40 h-40 rounded-full border-8 border-gray-300 overflow-hidden">
           <Image src={PerfilImage} alt="Alef Gaigher" layout="fill" objectFit="cover" />
         </div>
       </div>
       {/* Description */}
-      <div className="bg-indigo-400 w-full text-center p-2 text-white font-bold">
+      <div className="bg-indigo-400 w-full text-center p-2 font-bold">
         <span>Full-Stack Developer</span>
       </div>
       {/* Details */}
-      <div className="bg-black w-full p-4 text-left text-sm ">
+      <div className=" w-full p-4 text-left text-sm ">
         <BirthdayProgressBar />
         <p><strong>Data de Nascimento:</strong> 21 de Outubro de 1993</p>
         <p><strong>Endereço:</strong> Vila Velha - ES</p>
