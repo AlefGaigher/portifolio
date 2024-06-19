@@ -5,7 +5,7 @@ export const SkillsSection = () => (
     <div className="text-center" id="habilidades">
       <div className="border-b border-gray-300 mb-8 mt-14"></div>
       <span className="text-3xl">Habilidades</span>
-      <div className="grid grid-cols-3 gap-7 mt-20">
+      <div className="grid grid-cols-1 md:grid-cols-3 gap-7 mt-20">
         {tecnologias.map((tecnologia, index) => (
           <Technology
             key={index}

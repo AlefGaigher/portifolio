@@ -8,7 +8,6 @@ import { Providers } from "./providers";
 import { siteConfig } from "@/config/site";
 import { fontSans } from "@/config/fonts";
 import { Navbar } from "@/components/navbar";
-import { SocialMediaButtons } from "@/components/social-media";
 
 export const metadata: Metadata = {
   title: {
@@ -42,9 +41,9 @@ export default function RootLayout({
           fontSans.variable,
         )}
       >
-        <SocialMediaButtons/>
+        
         <Providers themeProps={{ attribute: "class", defaultTheme: "dark" }}>
-          <div className="relative flex flex-col h-screen">
+          <div className="relative flex flex-col h-full">
             <Navbar />
             <main className="container mx-auto max-w-7xl px-3 flex-grow">
               {children}

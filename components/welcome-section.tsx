@@ -1,13 +1,7 @@
 import { Profile } from "./profile";
 
 export const WelcomeSection = () => (
-    <div className="grid grid-cols-2 items-center justify-center " id="quemsou">
-       <div className="bouncing-balls">
-          <div className="ball"></div>
-          <div className="ball"></div>
-          <div className="ball"></div>
-          <div className="ball"></div>
-        </div>
+    <div className="grid grid-cols-1 md:grid-cols-2 items-center justify-center " id="quemsou">
       <div>
         <span className="text-3xl font-semibold">Seja Bem Vindo!</span>
         <p className="mt-4">
