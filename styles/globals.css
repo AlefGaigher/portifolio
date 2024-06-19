@@ -100,3 +100,19 @@
     animation-delay: 8s;
   }
   
+  @keyframes scale-in {
+    from {
+      margin-left: 100%;
+      width: 100%;
+    }
+
+    to {
+        margin-left: 0%;
+        width: 100%;
+    }
+  }
+  
+  .animate-scale-in {
+    animation: scale-in 3s ease-out;
+  }
+  
