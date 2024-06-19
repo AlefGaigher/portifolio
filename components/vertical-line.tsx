@@ -1,4 +1,4 @@
-'use client'
+"use client"
 import React, { useEffect, useState } from 'react';
 
 interface Experience {
@@ -51,9 +51,9 @@ export const VerticalLine: React.FC<VerticalLineProps> = ({ experiences }) => {
         >
           <div className="w-4 h-4 bg-white rounded-full"></div>
           <div className="ml-4 text-start">
-            <div className="text-white font-bold">{experience.year}</div>
-            <div className="text-white text-xl">{experience.title}</div>
-            <div className="text-white text-sm">{experience.description}</div>
+            <div className="text-white text-xs md:text-sm font-bold">{experience.year}</div>
+            <div className="text-white text-sm md:text-xl">{experience.title}</div>
+            <div className="text-white text-xs md:text-sm">{experience.description}</div>
           </div>
         </div>
       ))}

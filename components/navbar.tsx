@@ -46,9 +46,9 @@ export const Navbar = () => {
 
       <ul className="hidden lg:flex gap-11 justify-end ml-2">
         {siteConfig.navItems.map((item) => (
-          <NavbarItem key={item.href}>
+          <NavbarItem key={item.href} onClick={() => scrollToSection(item.id)}>
             <span
-              onClick={() => scrollToSection(item.id)}
+              
               className={clsx(
                 linkStyles({ color: "foreground" }),
                 "cursor-pointer data-[active=true]:text-primary data-[active=true]:font-medium hover:underline underline-offset-8"
