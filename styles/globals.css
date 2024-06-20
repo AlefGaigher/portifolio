@@ -102,17 +102,19 @@
   
   @keyframes scale-in {
     from {
-      margin-left: 100%;
+      margin-left: 30%;
       width: 100%;
+      opacity: 0;
     }
 
     to {
         margin-left: 0%;
         width: 100%;
+        opacity: 1;
     }
   }
   
   .animate-scale-in {
-    animation: scale-in 3s ease-out;
+    animation: scale-in 1s ease-out;
   }
   
