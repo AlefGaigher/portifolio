@@ -18,7 +18,7 @@ interface ProjectContainerProps {
 
 export function Project({ banner, title, description, linkProject, linkRepo, tags = [] }: ProjectContainerProps) {
   return (
-    <div className="bg-zinc-950 border border-gray-700 rounded-lg shadow-md overflow-hidden transform transition-transform hover:scale-105 flex flex-col h-full ">
+    <div className="bg-zinc-900  rounded-lg shadow-md overflow-hidden transform transition-transform hover:scale-105 flex flex-col h-full ">
       <div className="relative">
         <div className="w-full h-auto rounded-t-lg overflow-hidden">
           {banner}
@@ -40,9 +40,9 @@ export function Project({ banner, title, description, linkProject, linkRepo, tag
         <p className="mt-2 mb-4 text-start flex-grow text-gray-primary">{description}</p>
        
       </div>
-      <div className="flex justify-end space-x-2 pb-6 pr-6 bg-zinc-950 mt-auto">
+      <div className="flex justify-end space-x-2 pb-6 pr-6 bg-zinc-90 mt-auto">
         <Link href={linkProject} target="_blank">
-          <span className="px-4 py-2 text-sm font-medium leading-5 transition-colors duration-150 border rounded-lg hover:bg-slate-900">
+          <span className="px-4 py-2 text-sm font-medium leading-5 transition-colors duration-150 border rounded-lg hover:border-gray-600">
             Ver Projeto
           </span>
         </Link>
