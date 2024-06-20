@@ -4,8 +4,8 @@ import { certifications } from "@/config/certifications";
 
 export const ExperienceSection = () => (
     <div className="text-center mb-8 mt-56" id="experiencias">
-        <span className="text-3xl">Experiências</span>
-        <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-16">
+        <span className="text-6xl font-bold">Experiências</span>
+        <div className="grid grid-cols-1 md:grid-cols-2 gap-7 pt-28">
           <div>
             <div className="text-3xl">Formação</div>
             <div className="flex justify-center md:justify-start items-start">
