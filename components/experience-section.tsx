@@ -3,8 +3,7 @@ import { experience } from "@/config/experience";
 import { certifications } from "@/config/certifications";
 
 export const ExperienceSection = () => (
-    <div className="text-center" id="experiencias">
-        <div className="border-b border-gray-300 mb-8 mt-14"></div>
+    <div className="text-center mb-8 mt-56" id="experiencias">
         <span className="text-3xl">Experiências</span>
         <div className="grid grid-cols-1 md:grid-cols-2 gap-7 mt-16">
           <div>

@@ -39,9 +39,9 @@ export const VerticalLine: React.FC<VerticalLineProps> = ({ experiences }) => {
   }, [visibleIndexes]);
 
   return (
-    <div className="relative flex flex-col items-start">
+    <div className="relative flex flex-col items-start  ">
       {/* Linha vertical */}
-      <div className="absolute ml-2 w-px bg-white h-full"></div>
+      <div className="absolute ml-2 w-px h-full bg-white" ></div>
       {/* Pontos na linha */}
       {experiences.map((experience, index) => (
         <div
@@ -49,7 +49,7 @@ export const VerticalLine: React.FC<VerticalLineProps> = ({ experiences }) => {
           className={`flex items-center my-4 vertical-item ${visibleIndexes.includes(index) ? 'animate-scale-in' : ''}`}
           data-index={index}
         >
-          <div className="w-4 h-4 bg-white rounded-full"></div>
+          <div className="w-4 h-4  bg-white rounded-full " data-hide-on-theme="dark"></div>
           <div className="ml-4 text-start">
             <div className="text-xs md:text-sm font-bold">{experience.year}</div>
             <div className="text-sm md:text-xl">{experience.title}</div>

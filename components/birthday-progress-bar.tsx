@@ -39,12 +39,12 @@ export const BirthdayProgressBar: React.FC = () => {
       <div className="relative pt-1">
         <div className="flex mb-2 items-center justify-between">
           <div>
-            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-indigo-400 bg-indigo-200">
+            <span className="text-xs font-semibold inline-block py-1 px-2 uppercase rounded-full text-blue-600 bg-blue-200">
                 XP aniversário: {calculateDaysUntilBirthday()} Dias
             </span>
           </div>
           <div className="text-right">
-            <span className="text-xs font-semibold inline-block text-indigo-400">
+            <span className="text-xs font-semibold inline-block text-blue-600">
               {progress.toFixed(2)}%
             </span>
           </div>
@@ -52,7 +52,7 @@ export const BirthdayProgressBar: React.FC = () => {
         <div className="overflow-hidden h-2 mb-4 text-xs flex rounded bg-blue-200">
           <div
             style={{ width: `${progress}%` }}
-            className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-indigo-400"
+            className="shadow-none flex flex-col text-center whitespace-nowrap text-white justify-center bg-blue-600"
           ></div>
         </div>
       </div>

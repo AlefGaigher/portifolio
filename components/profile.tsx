@@ -7,12 +7,12 @@ export const Profile = () => (
      
     <div className="relative shadow-lg w-80 rounded-lg  border-8 border-gray-300 overflow-hidden card-rotate">
       {/* Header */}
-      <div className="bg-indigo-400 w-full p-3 flex justify-between items-center ">
+      <div className="bg-blue-600 w-full p-3 flex justify-between items-center ">
         <span className="text-xl font-bold">Alef Gaigher</span>
         <div className="flex items-center">
           <span className="text-sm font-bold">Nível:</span>
           <div className="flex items-center ml-2">
-            <span className="w-6 h-6 bg-indigo-200 text-center rounded-full text-indigo-400 font-bold">30</span>
+            <span className="w-6 h-6 bg-blue-200 text-center rounded-full text-blue-600 font-bold">30</span>
           </div>
         </div>
       </div>
@@ -24,7 +24,7 @@ export const Profile = () => (
         </div>
       </div>
       {/* Description */}
-      <div className="bg-indigo-400 w-full text-center p-2 font-bold">
+      <div className="bg-blue-600 w-full text-center p-2 font-bold">
         <span>Full-Stack Developer</span>
       </div>
       {/* Details */}

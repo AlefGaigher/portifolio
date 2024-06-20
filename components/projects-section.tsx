@@ -12,7 +12,8 @@ export const ProjectsSection = () => (
             title={project.title}
             description={project.description}
             linkProject={project.linkProject}
-            linkRepo={project.linkRepo}            
+            linkRepo={project.linkRepo}  
+            tags={project.tags}          
             />
         ))}
       </div>

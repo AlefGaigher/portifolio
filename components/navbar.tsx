@@ -15,13 +15,6 @@ import clsx from "clsx";
 import { siteConfig } from "@/config/site";
 import { ThemeSwitch } from "@/components/theme-switch";
 import { Logo } from "@/components/icons";
-import { useRef } from "react";
-
-interface NavItem {
-  id: string;
-  label: string;
-  href: string;
-}
 
 export const Navbar = () => {
   const scrollToSection = (id: string) => {
@@ -48,7 +41,6 @@ export const Navbar = () => {
         {siteConfig.navItems.map((item) => (
           <NavbarItem key={item.href} onClick={() => scrollToSection(item.id)}>
             <span
-              
               className={clsx(
                 linkStyles({ color: "foreground" }),
                 "cursor-pointer data-[active=true]:text-primary data-[active=true]:font-medium hover:underline underline-offset-8"
@@ -58,12 +50,12 @@ export const Navbar = () => {
             </span>
           </NavbarItem>
         ))}
-        <ThemeSwitch />
+        {/* <ThemeSwitch /> */}
       </ul>
 
       {/* Navbar Menu Mobile */}
       <NavbarContent className="sm:hidden basis-1 pl-4" justify="end">
-        <ThemeSwitch />
+        {/* <ThemeSwitch /> */}
         <NavbarMenuToggle />
       </NavbarContent>
 
