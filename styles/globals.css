@@ -4,13 +4,15 @@
 
 @keyframes slidein {
     from {
-        margin-left: 100%;
-        width: 300%;
+        margin-left: 10%;
+        width: 100%;
+        opacity: 0;
     }
 
     to {
         margin-left: 0%;
         width: 100%;
+        opacity: 1;
     }
 }
 

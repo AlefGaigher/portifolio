@@ -8,7 +8,7 @@ const socialMediaLinks = {
   twitter: "https://x.com/alefgaigher",
 };
 
-const iconClasses = 'mb-1 flex items-center justify-center rounded-full bg-black text-white text-lg w-9 h-9 hover:bg-gray-600';
+const iconClasses = 'mb-1 flex items-center justify-center rounded-full bg-black text-white text-lg w-9 h-9 hover:bg-blue-600';
 const containerClasses = 'mt-4 flex space-x-2';
 
 export function SocialMediaButtons() {
