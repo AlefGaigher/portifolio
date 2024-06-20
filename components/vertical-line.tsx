@@ -46,7 +46,7 @@ export const VerticalLine: React.FC<VerticalLineProps> = ({ experiences }) => {
       {experiences.map((experience, index) => (
         <div
           key={index}
-          className={`opacity-0 flex items-center my-4 vertical-item ${visibleIndexes.includes(index) ? 'animate-scale-in opacity-100' : ''}`}
+          className={`flex items-center my-4 vertical-item ${visibleIndexes.includes(index) ? 'animate-scale-in opacity-100' : 'opacity-0'}`}
           data-index={index}
         >
           <div className="w-4 h-4  bg-white rounded-full " data-hide-on-theme="dark"></div>
