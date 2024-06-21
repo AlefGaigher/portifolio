@@ -1,13 +1,12 @@
 import { Profile } from "./profile";
-
 import { SocialMediaButtons } from "@/components/social-media";
 
 export const WelcomeSection = () => (
   <div
-    className="grid grid-cols-1 md:grid-cols-2 items-center justify-center pt-16 pb-36"
+    className="grid grid-cols-1 md:grid-cols-2 items-center justify-center pt-16 md:-mt-16 md:h-screen"
     id="quemsou"
   >
-    <div>
+    <div className="animate-scale-in">
       <p className="text-4xl text-blue-600 font-bold">Olá, eu sou o</p>
       <span className="text-8xl font-semibold">Alef Gaigher.</span>
       <p className="mt-4 text-gray-primary text-lg">

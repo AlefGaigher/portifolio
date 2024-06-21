@@ -3,7 +3,7 @@ import PerfilImage from '/public/perfil.png';
 import { BirthdayProgressBar } from "./birthday-progress-bar";
 
 export const Profile = () => (
-  <div className="w-full flex flex-col items-center justify-center slide mt-4">
+  <div className="w-full flex flex-col items-center justify-center slide pt-10 md:pt-0">
      
     <div className="relative shadow-lg w-80 rounded-lg  border-8 border-gray-300 overflow-hidden card-rotate">
       {/* Header */}
