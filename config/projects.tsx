@@ -1,7 +1,8 @@
 import Image from "next/image";
 import Adaline from '/public/adaline.png';
+import Carteira from '/public/carteira.png';
 import NoImage from '/public/noimage.png';
-import { SiJavascript, SiTypescript, SiNextdotjs, SiReact, SiTailwindcss, SiHtml5, SiBootstrap, SiCsharp, SiDotnet } from "react-icons/si";
+import { SiJavascript, SiTypescript, SiNextdotjs, SiReact, SiTailwindcss, SiHtml5, SiBootstrap, SiCsharp, SiDotnet, SiFirebase, SiSass   } from "react-icons/si";
 
 export const projects = [
     { 
@@ -13,40 +14,56 @@ export const projects = [
         tags:[{
             name: "React.js",
             icon: <SiReact/>,
-            color: "bg-blue-300"
+            color: "React"
         },
         {
             name: "Next.js",
             icon: <SiNextdotjs/>,
-            color: "bg-blue-600"
+            color: "Next"
         },
         {
             name: "TypeScript",
             icon: <SiTypescript/>,
-            color: "bg-blue-600"
+            color: "TS"
         }, 
         {
             name: "Tailwind CSS",
             icon: <SiTailwindcss/>,
-            color: "bg-blue-600"
+            color: "Tail"
         },    
         ] 
     },
     { 
-        banner: <Image src={NoImage} alt="carteira online" className="w-full"/> , 
-        title: 'Em construção', 
-        description: 'Em construção', 
-        linkProject: "", 
-        linkRepo: "",
+        banner: <Image src={Carteira} alt="carteira online" className="w-full"/> , 
+        title: 'Carteira Online', 
+        description: 'Um projeto financeiro, para alocação de rendas, para praticar todo conhecimento de conexão a banco orientado a docs, nesse projeto coloquei em prática também os conceitos de hooks, slices', 
+        linkProject: "https://carteira-online.vercel.app/", 
+        linkRepo: "https://github.com/AlefGaigher/carteira-online",
         tags:[{
             name: "React.js",
             icon: <SiReact/>,
-            color: "bg-blue-300"
-        },{
-            name: "TypeScript",
-            icon: <SiTypescript/>,
-            color: "bg-blue-600"
-        },   
+            color: "React"
+        },
+        {
+            name: "JavaScript",
+            icon: <SiJavascript/>,
+            color: "JS"
+        },
+        {
+            name: "Next.js",
+            icon: <SiNextdotjs/>,
+            color: "Next"
+        },
+        {
+            name: "Firebase",
+            icon: <SiFirebase />,
+            color: "Fire"
+        },
+        {
+            name: "Scss",
+            icon: <SiSass />,
+            color: "Sass"
+        },    
         ]  
     },
     { 
@@ -55,16 +72,7 @@ export const projects = [
         description: 'Em construção', 
         linkProject: "", 
         linkRepo: "",
-        tags:[{
-            name: "React.js",
-            icon: <SiReact/>,
-            color: "bg-blue-300"
-        },{
-            name: "TypeScript",
-            icon: <SiTypescript/>,
-            color: "bg-blue-600"
-        },   
-        ]  
+        tags:[ ]  
     },
     { 
         banner: <Image src={NoImage} alt="login/cadastro" className="w-full"/>, 
@@ -72,15 +80,6 @@ export const projects = [
         description: 'Em construção', 
         linkProject: "", 
         linkRepo: "",
-        tags:[{
-            name: "React.js",
-            icon: <SiReact/>,
-            color: "bg-blue-300"
-        },{
-            name: "TypeScript",
-            icon: <SiTypescript/>,
-            color: "bg-blue-600"
-        },   
-        ]  
+        tags:[]  
     },
   ];
