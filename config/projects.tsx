@@ -1,6 +1,7 @@
 import Image from "next/image";
 import Adaline from '/public/adaline.png';
 import Carteira from '/public/carteira.png';
+import GitHub from '/public/github.png';
 import NoImage from '/public/noimage.png';
 import { SiJavascript, SiTypescript, SiNextdotjs, SiReact, SiTailwindcss, SiHtml5, SiBootstrap, SiCsharp, SiDotnet, SiFirebase, SiSass   } from "react-icons/si";
 
@@ -67,12 +68,23 @@ export const projects = [
         ]  
     },
     { 
-        banner: <Image src={NoImage} alt="reserva de ingresso" className="w-full"/> , 
-        title: 'Em construção', 
-        description: 'Em construção', 
-        linkProject: "", 
-        linkRepo: "",
-        tags:[ ]  
+        banner: <Image src={GitHub} alt="repositorio github" className="w-full"/> , 
+        title: 'Conexão com API externa Github', 
+        description: 'Um projeto para testar e aprimorar conhecimentos sobre conexões com APIs externas e obtenção de dados usando axios. Neste projeto específico, o objetivo é adicionar repositórios do GitHub a uma lista de repositórios através de uma interface interativa.', 
+        linkProject: "https://api-repositorio-github.vercel.app/", 
+        linkRepo: "https://github.com/AlefGaigher/api-repositorio-github",
+        tags:[
+        {
+            name: "React.js",
+            icon: <SiReact/>,
+            color: "React"
+        }, 
+        {
+            name: "JavaScript",
+            icon: <SiJavascript/>,
+            color: "JS"
+        },
+        ]  
     },
     { 
         banner: <Image src={NoImage} alt="login/cadastro" className="w-full"/>, 
