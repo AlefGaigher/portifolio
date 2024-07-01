@@ -2,6 +2,7 @@ import Image from "next/image";
 import Adaline from '/public/adaline.png';
 import Carteira from '/public/carteira.png';
 import GitHub from '/public/github.png';
+import Login from '/public/logincadastro.png';
 import NoImage from '/public/noimage.png';
 import { SiJavascript, SiTypescript, SiNextdotjs, SiReact, SiTailwindcss, SiHtml5, SiBootstrap, SiCsharp, SiDotnet, SiFirebase, SiSass   } from "react-icons/si";
 
@@ -87,11 +88,32 @@ export const projects = [
         ]  
     },
     { 
-        banner: <Image src={NoImage} alt="login/cadastro" className="w-full"/>, 
-        title: 'Em construção', 
-        description: 'Em construção', 
-        linkProject: "", 
-        linkRepo: "",
-        tags:[]  
+        banner: <Image src={Login} alt="login/cadastro" className="w-full"/>, 
+        title: 'Login/Cadastro - Next Auth', 
+        description: 'Uma aplicação de login e cadastro usando os conceitos da biblioteca de autenticação do next (Next Auth), que gera mais segurança para autenticação de contas', 
+        linkProject: "https://auth-next-rho-one.vercel.app/", 
+        linkRepo: "https://github.com/AlefGaigher/auth-next",
+        tags:[{
+            name: "React.js",
+            icon: <SiReact/>,
+            color: "React"
+        },
+        {
+            name: "Next.js",
+            icon: <SiNextdotjs/>,
+            color: "Next"
+        },
+        {
+            name: "TypeScript",
+            icon: <SiTypescript/>,
+            color: "TS"
+        }, 
+        {
+            name: "Tailwind CSS",
+            icon: <SiTailwindcss/>,
+            color: "Tail"
+        }, 
+
+        ]  
     },
   ];
