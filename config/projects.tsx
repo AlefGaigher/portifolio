@@ -88,11 +88,11 @@ export const projects = [
         ]  
     },
     { 
-        banner: <Image src={Login} alt="login/cadastro" className="w-full"/>, 
+        banner: <Image src={Login} alt="Login e Cadatro - Firebase" className="w-full"/>, 
         title: 'Login/Cadastro - Next Auth', 
         description: 'Uma aplicação de login e cadastro usando os conceitos da biblioteca de autenticação do next (Next Auth), que gera mais segurança para autenticação de contas', 
-        linkProject: "https://auth-next-rho-one.vercel.app/", 
-        linkRepo: "https://github.com/AlefGaigher/auth-next",
+        linkProject: "https://login-e-cadastro-next-e-firebase.vercel.app", 
+        linkRepo: "https://github.com/AlefGaigher/login-e-cadastro-next-e-firebase",
         tags:[{
             name: "React.js",
             icon: <SiReact/>,
@@ -112,6 +112,11 @@ export const projects = [
             name: "Tailwind CSS",
             icon: <SiTailwindcss/>,
             color: "Tail"
+        },
+        {
+            name: "Firebase",
+            icon: <SiFirebase />,
+            color: "Fire"
         }, 
 
         ]  
